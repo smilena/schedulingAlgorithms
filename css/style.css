@@ -1,0 +1,66 @@
+#RR{
+	overflow: hidden;
+	font-size: 1.2em;
+}
+#RR div.span12 {
+	margin-left: 0;
+}
+#RR div.span12 span{
+	margin-left: 10px;
+	display: block;
+	width: 136px;
+}
+#RR div.span12 div{
+	margin-left: 10px;
+	display: block;
+	width: 136px;
+}
+#contenedorTabla{
+	max-height: 220px;
+	overflow: auto;
+}
+#ram, #teclado, #monitor, #video{
+	width:0;
+	height: 20px;
+	background-color: #6E6E6E;
+	margin-bottom: 10px;
+}
+
+.pequeno{
+	font-size: 0.7em;
+}
+
+#espera,#bloqueado,#ejecucion,#listo{
+	float:left;
+}
+
+.titulo{
+	text-align: center;
+}
+
+#RR div.span12 span.pequeno {
+	margin-left: 15px;
+	margin-top: 3px;
+	background-color:white;
+	padding: 2px;
+	border-radius: 5px;	
+	height: 20px;
+	display: block; 
+	width: 110px;
+}
+
+.contenedorGantt{
+	overflow: auto;
+}
+
+.contenedorGantt td{
+	border-color: black;
+	padding:3px;
+	font-size: 0.8em;
+}
+
+table th{
+	text-align: center;
+	font-size: 0.8em;
+}
+
